@@ -1,0 +1,80 @@
+*{
+    background-color:aliceblue;
+}
+.tray-tabs{
+    height: 100px;
+    width: 212.15px;
+    border: 2px white solid;
+    border-radius: 5px;
+    padding-top:15px;
+    padding-left: 5px;
+    margin: 10px;
+    background-color: white;
+    display: flex;
+    gap:5px;
+    }
+.tray-tabs:hover{
+    box-shadow: 4px 4px 8px rgba(0,0,0,.2);
+    cursor:pointer;
+}
+h3
+{
+    margin: 10px;
+
+}
+.tile-title{
+    font-size: xx-small;
+    color: grey;
+    background-color: white;
+}
+.tile-amt{
+    font-size: small;
+    font-weight: bold;
+    background-color: white;
+}
+.tile-stat{
+    font-size: xx-small;
+    color: green;
+    background-color: white;
+}
+.tile-loss{
+    font-size: xx-small;
+    color: red;
+    background-color: white;
+}
+.tile-row{
+    background-color: white;
+}
+.nav-list{
+    background-color: inherit;
+    font-size:small;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    
+}
+.nav-list-icon{
+    height: 14px;
+    border-radius: 4px;
+    margin-right: 0px;
+    display:flexbox;
+}
+.bars:hover
+{
+    background-color: #734f96  !important;
+    cursor:pointer;
+}
+.bar-chart:hover
+{
+    box-shadow: 4px 4px 8px rgba(0,0,0,.2);
+
+}
+.dough:hover{
+    box-shadow: 4px 4px 8px rgba(0,0,0,.2);
+    cursor:pointer;
+}
+.container>div{
+    background-color: white;
+}
+.container{
+    align-items: center;
+}
